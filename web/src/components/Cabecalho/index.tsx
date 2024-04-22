@@ -26,8 +26,11 @@ function Cabecalho() {
         <CabecalhoEstilizado>
             <img src={logo} alt="logo da empresa Voll" />
             <Container>
+           
+                <LinkEstilizado href="#">Sobre</LinkEstilizado>
+                
                 <img src={perfil} alt="imagem de perfil do usuário" />
-                <LinkEstilizado href="#">Sair</LinkEstilizado>
+                <LinkEstilizado href="#">Login</LinkEstilizado>
             </Container>
         </CabecalhoEstilizado>
     )
