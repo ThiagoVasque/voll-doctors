@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import logo from './assets/logo.png';
 import perfil from './assets/perfil.png';
 
+
 const CabecalhoEstilizado = styled.header`
     display:flex;
     align-items: center;
@@ -26,9 +27,6 @@ function Cabecalho() {
         <CabecalhoEstilizado>
             <img src={logo} alt="logo da empresa Voll" />
             <Container>
-           
-                <LinkEstilizado href="#">Sobre</LinkEstilizado>
-                
                 <img src={perfil} alt="imagem de perfil do usuário" />
                 <LinkEstilizado href="#">Login</LinkEstilizado>
             </Container>
